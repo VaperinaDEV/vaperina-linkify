@@ -33,7 +33,7 @@ export default {
         link.innerHTML = text;
         link.href = url;
         link.rel = 'nofollow';
-        link.target = '_blank';
+        link.target = '_self';
         link.className = 'linkify-word no-track-link';
         return link;
       };
